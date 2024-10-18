@@ -1,0 +1,630 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding:0;
+    background-color: #FFF4F7;
+    font-family:"Darker Grotesque", sans-serif;
+    font-weight: bold;
+}
+
+/* All universal styling code */
+
+section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    padding-top: 30px;
+}
+
+h2{
+    font-size: 40px;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.sub-text{
+    font-size: 20px;
+  }
+
+.rise-graph-heading, .tiktok-text, .demographic-text, .choropleth-text, .prevalence-text{
+    margin-bottom: 30px;
+}
+
+.rise-graph-page, .demographic-page, .choropleth-page, .block-page, .resources-page, .prevalence-page, .facebook-page{
+    padding-bottom: 50px;
+}
+
+a{
+    color:#333;
+}
+
+#social-link {
+    color: white;
+}
+
+.info-text {
+    font-size: 28px;
+    font-weight: 500;
+    margin-top:0px;
+    margin-bottom: 10px;
+}
+
+/* Universal styling for images */
+
+.small-img{
+    width: 250px;
+    height: 250px;
+}
+
+.big-img {
+    width: 500px;
+    height: 500px;
+    transform: translateY(-50%,-50%);
+}
+
+/* Styling for default button*/
+
+button{
+    background-color: #F694AF;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 20px;
+    border-radius: 40px;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #D6436B;
+}
+
+/* Styling for default highlight colour */
+
+mark{
+    background-color: #F694AF;
+}
+
+#text, .stats-header, .prompt, #prompt-heading{
+    color: #D6436B;
+}
+
+/* Styling for default text boxes */
+
+.box-one {
+    font-size: 20px;
+    text-align:center;
+    background-color: #F694AF;
+    color: white;
+    z-index: 1;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.box-two {
+    font-size: 20px;
+    text-align: center;
+    background-color: #fab4c7;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px
+}
+
+/* Styling of the header page */
+
+.title-page {
+    width:100%;
+    width: 100%;
+    display: flex;
+    min-height: 100vh;
+    justify-content: left;
+    align-items: left;
+    background-color: #F694AF; 
+}
+
+h1 {
+    text-align: left;
+    margin-top: 50px;
+}
+
+.mainHeading {
+    position: absolute;
+    width:40%;
+    top: 40%;
+    left: 10%; /* Adjust the left position as needed */
+    transform: translateY(-50%);
+    color: white;
+    font-size: 100px;
+    z-index: 1;
+}
+
+.main-subheading{
+    position: absolute;
+    text-align: left;
+    top: 70%; /* Adjust the top position as needed */
+    width: 50%;
+    left:10%;
+    font-size: 28px;
+    color: white;
+}
+
+#phoneimg {
+    position: absolute;
+    top: 50%; 
+    right: 2%; 
+    transform: translateY(-50%); 
+    width: 700px;
+    height:700px;
+}
+
+/* Styling of the first prompt page */
+
+.prompt-page {
+    background-color:#FFF4F7;
+}
+
+.sub-heading{
+    font-size: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+/* Styling of the rise of social media and tiktok graph page*/
+
+.rise-graph-page {
+    position: relative;
+    min-height: 100vh;
+    background-color: #FFE5ED;
+    padding-bottom: 50px;
+}
+
+#rise-stat, #tiktok-stat{
+    margin-left:400px;
+    margin-right: 400px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#rise-of-social-media {
+    border-radius: 40px; 
+    justify-content: center;
+    z-index: 2;
+    background-color: #f9b5c8;
+}
+
+#rise-text,  #demographic-stat, #prevalence-stat{
+    width: 644px;
+    padding: 40px;
+    font-weight: 500;
+}
+/* Styling of the BDD statistic page  */
+
+.block-page {
+    background-color: white;
+}
+
+.population {
+    display: flex; 
+    flex-direction: row; 
+    justify-content: center; 
+    align-items: center; 
+    width: 100%; 
+}
+
+.section {
+    text-align: center;
+    justify-content: center;
+    margin: 20px; 
+    padding: 20px;
+    width: 250px;
+    background-color: #F694AF;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+/* Styling of the reflection interactive prompt page  */
+
+.reflection-page {
+    position: relative;
+    background-color: #F694AF
+}
+
+.reflect, .reflect-heading{
+    color: white;
+}
+
+.option{
+    color: white;
+    font-size: 25px;
+    top:0;
+}
+
+.time-button {
+    width: 100px;
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: white;
+    color:#D6436B;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.time-button:hover {
+    background-color: #d0d0d0;
+}
+
+.popup-content {
+    text-align: center;
+    width: 500px;
+    margin-bottom: 40px;
+    font-size: 35px; /* Adjust font size */
+    color: white; /* Adjust text color */
+}
+
+/* Styling of the most downloaded social media platforms graph page */
+
+.facebook-page {
+    background-color: '#FFF4F7';
+}
+
+#social-media-users {
+    justify-content: center;
+}
+
+
+#however{
+    margin-bottom: 30px;
+}
+
+#facebook-subtext{
+    padding: 10px;
+    margin:20px;
+    top: 30px;
+}
+/* Styling of the most used social media platforms graph page */
+
+.tiktok-page {
+    position: relative;
+    background-color: #FFE5ED;
+    min-height: 150vh;
+}
+
+.text-container {
+    width: 644px;
+    padding: 20px;
+    background-color: #F694AF;
+    color: white;
+    border-radius: 20px;
+}
+
+.media-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 644px;
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+    background-color: #fab4c7;
+    color: #333;
+    margin-bottom: 30px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+li {
+    font-size: 25px;
+    list-style-type: none;
+    margin-bottom: 10px; 
+    align-items: center; 
+}
+
+.wordmark{
+    width:70px;
+    height: 17px;
+    margin-right: 5px;
+}
+
+#demographic-subtext, #tiktok-stat, #bdd-stat{
+    padding:20px
+}
+
+.hashtag-page {
+    background-color: #F694AF;
+    min-height: 110vh;
+}
+
+.hashtag-text, #hover-text{
+    color: white;
+}
+
+.hashtag-container {
+    display: flex;
+    margin-top: 20px;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 100px; 
+}
+
+.hashtag {
+    width: 350px;
+    height: 300px;
+    background-color: white;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: transform 0.3s;
+    position: relative; 
+}
+
+/* Creating the hover interactions for the hashtag boxes */
+
+.hashtag:hover {
+    transform: scale(1.3); /* Transforming the size of the box when hovered over */
+}
+
+.hashtag h3 {
+    position: absolute;
+    font-size: 40px;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+}
+
+/* Altering the positions of the contents inside the box when hovered over */
+
+.hashtag:hover h3 {
+    font-size: 24px;
+    top: 10px;
+    transform: translateX(-50%);
+    margin: 0; 
+}
+
+.hashtag img#hashtagimg {
+    width: 200px; 
+    display: none; 
+    position: absolute; 
+    top: 60%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+}
+
+.hashtag:hover img#hashtagimg {
+    display: block;
+    opacity: 1; 
+}
+
+/* Styling the choropleth graph page */
+
+.choropleth-page{
+    background-color:#FFF4F7;
+}
+
+#bdd-stat{
+    margin-bottom: 30px;
+}
+
+/* Styling the prevalence of BDD page that contains two graphs */
+
+.prevalence-page{
+    background-color: #FFE5ED;
+}
+
+.stats-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center; 
+}
+
+.text text2 {
+    width: 80%;
+}
+
+/* Utilised gridbox generator to structure this page */
+.container {  display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "graph text"
+      "text-two graph-two";
+  }
+  
+.Graph { grid-area: graph; }
+  
+.Text { grid-area: text; }
+  
+.Text2 { grid-area: text-two; }
+  
+.Graph2 { grid-area: graph-two; }
+
+.text, .text-two{
+    background-color: #F694AF;
+    padding: 20px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+.text{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+
+.text-two{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  
+.prevalence-subtext{
+    color:white;
+    font-size: 20px;
+    width: 100%;
+}
+
+/* Creating a statistic box with blur effect */
+.stat-box{
+    color: white;
+    background-color: #F694AF;
+    padding: 40px;
+    border-radius: 20px; 
+    z-index: -1;
+    filter: blur(0.2px); /* Applying blur effect to surround box, created with the assistance of ChatGPT*/
+    box-shadow: 0 0 40px #F694AF; 
+    font-size: 30px;
+}
+
+.container-stat{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center;
+}
+
+.box {
+    padding: 40px;
+    width: 400px;
+    background-color: #fab9cb;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.percent{
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+#boxer{
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#boxer-two{
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+/* Creating a block informative text  */
+
+.white{
+    background-color: white;
+    width: 100%;
+    margin-top: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.last-text {
+    font-size: 30px;
+    padding-left: 140px;
+    padding-right: 140px;
+
+}
+
+#empower-text{
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.empower{
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 35px;
+}
+
+/* Styling the mental health resources page */
+
+.resources-page{
+    background-color:#F694AF;
+}
+
+.resources-header{
+    color:white;
+    margin-bottom: 30px;
+}
+
+.heart-img{
+    height: 300px;
+    width: 300px;
+}
+
+.resource-container{
+    display: flex;
+    flex-direction: row;
+    column-gap: 100px;
+}
+
+.resource-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    padding:40px;
+    background-color: white;
+    width: 300px;
+    height: 400px;
+}
+
+.phone{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.beyond-blue-img{
+    width: 180px;
+    height: 150px
+}
+
+.butterfly-img{
+    width: 135px;
+    height: 150px
+}
+
+  
+/* Styling the footer section for the references */
+
+footer{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+.references{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer-head{
+    font-size: 30px;
+  }
+
+
+  

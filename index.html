@@ -1,0 +1,297 @@
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300..900&display=swap" rel="stylesheet">
+    </head>
+<!-- Utilised section to frame each page -->
+<!-- Title page -->
+    <body>
+    <header class="title-page">
+    <h1 class = "mainHeading">Social Media and Body Image</h1>
+    <img id="phoneimg" src="images/intropage.png" alt="person holding phone">
+    <p class = "main-subheading">Exploring the Impact of Social Media on Body Image in Adolescents and Young Adults</p>
+    </header>
+
+<!-- Prompt page  -->
+    <section class="prompt-page">
+        <h2 class="prompt">Hey there</h2>
+        <img class="big-img" src="images/healthimg.png" alt="brain with arms">
+        <p class ="sub-heading" id="prompt-heading">Take a moment to reflect, how do you currently feel about your body?</p>
+    </section>
+    
+<!-- Rise of social media graph page -->
+    <section class="rise-graph-page">
+      <h2 class="rise-graph-heading">What has been happening?</h2>
+      <div class="box-one" id="rise-stat">
+        <p class="sub-heading">
+            <strong>As of 2024, there is a staggering 5.07 billion social media users, it continues to grow by 9% annually.</strong>
+            <a id="social-link" href="https://www.statista.com/statistics/617136/digital-population-worldwide/#:~:text=As%20of%20April%202024%2C%20there,population%2C%20were%20social%20media%20users.">[1]</a>
+        </p>
+    </div>
+        <div id="rise_of_social_media"></div>
+        <p>All social media-Data source: <a href="https://datareportal.com/reports/digital-2024-global-overview-report">DataReportal 2024</a></a>, Tiktok-Data source: <a href="https://www.businessofapps.com/data/tik-tok-statistics/">Business of Apps 2024</a></p>
+        <div class="box-two" id="rise-text">
+        <p class="sub-text">
+            The graph above illustrates the exponential growth of social media users in the past decade, along with the growth of the platform, 
+            <strong>TikTok</strong>
+            , since the international release. 
+        </p>
+    </div>
+    </section>
+    
+<!-- Statistic page about BDD -->
+    <section class="block-page">
+            <h2 id="text">Have you ever looked in the mirror and felt unhappy with what you see?</h2>
+            <img class="small-img" src="images/mirror.png" alt="girl looking in mirror">
+            <p class="sub-heading" id="text">That feeling might be body dysmorphia</p>
+            <div class="population">
+            <div class="section">
+                <p class="percent">2%</p>
+                <p>of the general population have Body Dysmorphia Disorder</p>
+            </div>
+            <div class="section">
+                <p class="percent">4.4%</p>
+                <p>of young adults and adolescents have Body Dysmorphia Disorder</p>
+            </div>
+        </div>
+        <p>Source: Australian and New Zealand Journal of Psychiatry (2023) - <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10619174/#:~:text=BDD%20is%20relatively%20common%2C%20affecting,among%20young%20adults%20and%20adolescents.">Click to learn more</a></p>
+    </section>
+
+<!-- Interactive reflection page -->
+<!-- Created a set of buttons to allow users to select an option that results with a pop up-->
+    <section class="reflection-page">
+            <h2 class="reflect">Reflect for a moment</h2>
+            <img class="big-img" src="images/ponder.png" alt="figure pondering">
+            <h2 class ="reflect-heading">How much time do you spend on TikTok each day?</h2>
+            <p class="option">Click to select your option</p>
+            <div class="pop-up">
+                <button id="less-than-1-hour" class="time-button">Less than 1 hour</button>
+                <button id="1-2-hours" class="time-button">1-2 hours</button>
+                <button id="2-3-hours" class="time-button">2-3 hours</button>
+                <button id="3-4-hours" class="time-button">3-4 hours</button>
+                <button id="4-5-hours" class="time-button">4-5 hours</button>
+                <button id="5-6-hours" class="time-button">5-6 hours</button>
+                <button id="more-than-6-hours" class="time-button">More than 6 hours</button>
+            </div>
+
+            <div id="popup" class="popup">
+                <div class="popup-content" id="popup-content"></div>
+            </div>
+     </section>
+
+<!-- Most downloaded platform graph page -->
+    <section class="facebook-page">
+            <h2 class="facebook-text">
+                It is reported that, as of 2024,
+                <strong>Facebook</strong>
+                is the social media platform that holds the highest amount of users
+            </h2>
+
+            <div class="box-one" id="tiktok-stat">
+                <p class="info-text">The bar graph shown below showcases the <strong>top five most downloaded</strong> social media platforms</p>
+            </div>
+            <div id="chart-container"></div>
+            <div id="social-media-users"></div>
+
+            <p>Data source: <a href="https://datareportal.com/reports/digital-2024-australia">DataReportal 2024</a></p>
+            <div class="box-two">
+                <p class="sub-heading" id="facebook-subtext">However...</p>
+            </div>
+        </section>
+
+<!-- Most used platform graph page -->
+        <section class="tiktok-page">
+            <h2 class="tiktok-text">An average Australian spends about 42 hours per month on TikTok</h2>
+            <div class="box-one" id="tiktok-stat">
+                <p class="info-text">Here, we see which social media platforms the average Australian spends the <strong>most time on</strong></p>
+            </div>
+            <div id="chart-container">
+                <div id="time-spent"></div>
+            </div>         
+           <div class="media-list">
+                <p class="sub-heading">That is approximately 5.89% of the total hours in a month.</p>
+                <ul class="info-text" id="media-names">
+                    <li><img class="wordmark" id="tiktok" src="./images/tiktok.png" alt="tiktok wordmark">- 42 Hours</li> 
+                    <li><img class="wordmark" id="youtube" src="/images/youtube.png" alt="youtube wordmark">- 21 Hours</li>
+                    <li><img class="wordmark" id="facebook" src="/images/facebook.png" alt="facebook wordmark">- 20 Hours</li>
+                    <li><img class="wordmark" id="snapchat" src="/images/snapchat.png" alt="snapchat wordmark">- 17 Hours</li>
+                    <li><img class="wordmark" id="instagram" src="/images/instagram.png" alt="instagram wordmark">- 11 Hours</li> <!--Attempted to create an even display that was more readible and experiment with divs and grid layout but failed to do so-->
+                </ul>
+                <p>Data source: <a href="https://datareportal.com/reports/digital-2024-australia">DataReportal 2024</a></p>
+            </div>
+    </section>
+
+<!-- Demographic on TikTok graph page -->
+    <section class="demographic-page">
+            <h2 class="demographic-text">If Tiktok is the most used platform, what does the demographic look like?</h2>
+            <div class="box-one" id="demographic-subtext">
+            <p class="info-text">Let's take a look</p>
+            </div>
+            <div id="chart-container">
+                <div id="demographic-chart"></div>
+            </div>
+            <p>Data source: Analysis by <a href="https://datareportal.com/essential-tiktok-stats#:~:text=419.9%20million%20users%20aged%2018,audience%20aged%2018%20and%20above">DataReportal 2023</a></p>
+            <div class="box-two" id="demographic-stat">
+            <p class="sub-text">
+                As shown here, <strong>young adults aged 18-24</strong> make up the largest segment of TikTok's audience, highlighting the platform's strong appeal to this age group. 
+            </p>
+        </div>
+    </section>
+
+<!-- Interactive hashtag boxes page -->
+    <section class="hashtag-page"> 
+            <h2 class="hashtag-text">Have you ever encountered any of these hashtags on Tiktok?</h2>
+            <p class="sub-heading" id="hover-text">Hover over boxes to reveal information</p>
+            <div class="hashtag-container">
+            <div class="hashtag" id="diet-box" onmouseover="changeText(this)" onmouseout="resetText(this)">
+                <h3 id="diet">#Diet</h3>
+                <img id="hashtagimg" src="/hashtagimg/diet.jpg" alt="diet tiktok img">
+              </div>
+          
+              <div class="hashtag" id="health" onmouseover="changeText(this)" onmouseout="resetText(this)">
+                <h3 id="health">#Health</h3>
+                <img id="hashtagimg" src="/hashtagimg/health.jpg" alt="health tiktok img">
+              </div>
+
+              <div class="hashtag" id="weightloss" onmouseover="changeText(this)" onmouseout="resetText(this)">
+                <h3 id="weightloss">#Weightloss</h3>
+                <img id="hashtagimg" src="/hashtagimg/weightloss.jpg" alt="weightloss tiktok img">
+              </div>
+
+              <div class="hashtag" id="nutrition" onmouseover="changeText(this)" onmouseout="resetText(this)">
+                <h3 id="nutrition">Nutrition</h3>
+                <img id="hashtagimg" src="/hashtagimg/nutrition.jpg" alt="nutrition tiktok img">
+              </div>
+
+              <div class="hashtag" id="weightlosscheck" onmouseover="changeText(this)" onmouseout="resetText(this)">
+                <h3 id="weightlosscheck">#Weightlosscheck</h3>
+                <img id="hashtagimg" src="/hashtagimg/weightlosscheck.jpg" alt="weightlosscheck tiktok img">
+              </div>
+
+              <div class="hashtag" id="gymtok" onmouseover="changeText(this)" onmouseout="resetText(this)">
+                <h3 id="gymtok">#Gymtok</h3>
+                <img id="hashtagimg" src="/hashtagimg/gymtok.jpg" alt="gymtok tiktok img">
+              </div>
+              <div class="white">
+                <p class="info-text">Research states that</p>
+                <p class="last-text">Less than <mark> 3% of the nutrition-related </mark> TikTok videos analyzed by the study's researchers were <mark> weight-inclusive. </mark></p>
+                <button href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0267997#pone.0267997.ref019">Click to learn more</button>
+            </div>
+            </div>
+    </section>
+
+<!-- Choropleth of BDD prevalence graph page -->
+    <section class="choropleth-page">
+            <h2 class="choropleth-text">
+                As of 2019, Australia has the highest rate of eating disorders
+            </h2>
+            <div class="box-one" id="bdd-stat">
+                <p>Almost one third of individuals with BDD also have an eating disorder at some point during their lifetime. <a id="social-link" href="https://bdd.iocdf.org/expert-opinions/the-body-as-a-prison-eating-disorders-and-body-dysmorphic-disorder/#:~:text=Yes.,areas%20other%20than%20their%20weight.">[2]</a></p>
+            </div>
+            <div id="chart-container">
+                <div id="choropleth-chart"></div>
+            </div>   
+            <p>Data source: IHME, Global Burden of Disease (2020) - processed by <a href="https://ourworldindata.org/grapher/eating-disorders-prevalence">Our World in Data</a></p>
+            <div class="box-two" id="prevalence-stat">
+                <p class="sub-text">Now in 2024, reports state that <strong>90% of young people</strong> in Australia have some concern about their body image. <a href="https://butterfly.org.au/news/more-than-90-of-young-people-in-australia-have-some-concern-about-their-body-image/">[3]</a></p>
+            </div>
+    </section>
+
+<!-- Page contains both standardised prevalence of BDD and demographic prevalence of BDD charts -->
+    <section class="prevalence-page">
+            <h2 class="prevalence-text">
+                Let's take a closer look of what is happening in Australia
+            </h2>
+            <div class="container">
+                <div class="graph">
+                    <div id="prevalence-chart"></div>
+                </div>
+                <div class="text">
+                    <p class="prevalence-subtext">This graphs shows the standardised prevalence of Body Dysmorphic Disorder (BDD) in Australia over the years</p>
+                    <img class="small-img" src="/images/thoughts.png" alt="girl with thought bubble">
+                    <p class="prevalence-subtext">This indicates a significant upward trend, with BDD becoming more prevalent among various age groups</p>
+                </div>
+                <div class="text-two">
+                    <p class="prevalence-subtext">This graph illustrates the prevalence of eating disorders across different age groups in Australia.</p>
+                    <img class="small-img" src="/images/headphone.png" alt="person in phone screen">
+                    <p class="prevalence-subtext">This trend correlates with the increased social media usage among younger demographics, which can impact body image and contribute to the emergence of eating disorders </p>
+                </div>
+                <div class="graph-two">
+                    <div id="age-chart"></div>
+                </div>
+              </div>
+              <p>Data Source: IHME, Global Burden of Disease (2019) - processed by <a href="https://ourworldindata.org/grapher/eating-disorders-prevalence-by-age?country=~AUS">Our World in Data</a></p>
+    </section>
+        
+<!-- Statistic page about the TikTok algorithm -->
+    <section class="stats-page"> 
+                <h2 class="stats-header">Did you know?</h2>
+                <p class="stat-box">
+                    Research found that if you are currently diagnosed with an eating disorder, it is: 
+                </p>
+                <div class="container-stat">
+                    <div class="box" id="boxer">
+                        <p class="percent">4137%</p>
+                        <p>
+                            more likely that the next video delivered to you by the TikTok algorithm will be eating disorder related.
+                        </p>
+                    </div>
+                    <div class="box" id="boxer-two">
+                        <p class="percent">322%</p>
+                        <p>
+                            more likely that the next video delivered to you by the TikTok algorithm will be diet-oriented.
+                        </p>
+                    </div>
+                </div>
+                <p> Source: Butterfly Foundation - <a href="https://butterfly.org.au/news/social-media-roundtable/"> Click to learn more </a></p>
+                <div class="white">
+                    <p class="last-text">
+                        In present day, we have more accessibility to social media, where younger people are turning to technology for mental health support.
+                    </p>
+                    <img class="small-img" src="/images/phone.png" alt="phone screen with tiktok">
+                    <p class="last-text" id="empower-text">
+                        Despite social media having a negative influence on body image, it has the power to <mark class="empower">empower individuals.</mark>
+                    </p>
+                </div>
+    </section>
+
+<!-- Resource links to mental health spaces page -->
+    <section class="resources-page">
+            <div class="resources-header">
+                <h2>Your health truly matters</h2>
+                <img class="heart-img" src="/images/heart.png" alt="smiling heart sketch">
+                <p class="sub-heading">
+                    If you ever find yourself or people around you struggling with body image, here are some safe places to speak your mind
+                </p>
+            </div>
+            <div class="resource-container">
+                <div class="resource-content" id="content-box">
+                    <img class="butterfly-img" src="/images/butterfly.png">
+                    <p class="phone">Phone</p>
+                    <p>1800 33 4673</p>
+                    <a href="https://butterfly.org.au/"><button>Click here to find out more</button></a>
+                </div>
+                <div class="resource-content" id="content-box-two">
+                    <img class="beyond-blue-img" src="/images/beyondblue.png">
+                    <p class="phone">Phone</p>
+                    <p>1800 33 4673</p>
+                    <a href="https://www.beyondblue.org.au/"><button>Click here to find out more</button></a>
+                </div>
+            </div>
+    </section>
+
+<!-- Footer containing any additional references -->
+    <footer>
+            <h4 class="footer-head">References</h4>
+            <div class="references">
+                <p>[1] : Petrosyan, A. (2024, May 7). Internet and social media users in the world 2024. Statista. https://www.statista.com/statistics/617136/digital-population-worldwide/#:~:text=As%20of%20April%202024%2C%20there</p>
+                <p>[2] : The Body as a Prison: Eating Disorders and Body Dysmorphic Disorder. (n.d.). BDD. https://bdd.iocdf.org/expert-opinions/the-body-as-a-prison-eating-disorders-and-body-dysmorphic-disorder/#:~:text=Yes.</p>
+                <p>[3] : Butterfly Foundation. (2023, May 29). More than 90% of young people in Australia have some concern about their body image. Butterfly Foundation. https://butterfly.org.au/news/more-than-90-of-young-people-in-australia-have-some-concern-about-their-body-image/</p>
+            </div>
+    </footer>
+
+        <script src="script.js"></script>
+    </body>
+    </html>

@@ -1,0 +1,215 @@
+Entity,Code,Year,Prevalence
+Afghanistan,AFG,2019,0.12
+Africa (IHME GBD),,2019,0.12
+Albania,ALB,2019,0.14
+Algeria,DZA,2019,0.21
+America (IHME GBD),,2019,0.30
+American Samoa,ASM,2019,0.13
+Andorra,AND,2019,0.52
+Angola,AGO,2019,0.14
+Antigua and Barbuda,ATG,2019,0.27
+Argentina,ARG,2019,0.33
+Armenia,ARM,2019,0.13
+Asia (IHME GBD),,2019,0.14
+Australia,AUS,2019,1.03
+Austria,AUT,2019,0.56
+Azerbaijan,AZE,2019,0.14
+Bahamas,BHS,2019,0.29
+Bahrain,BHR,2019,0.29
+Bangladesh,BGD,2019,0.12
+Barbados,BRB,2019,0.24
+Belarus,BLR,2019,0.13
+Belgium,BEL,2019,0.44
+Belize,BLZ,2019,0.20
+Benin,BEN,2019,0.10
+Bermuda,BMU,2019,0.37
+Bhutan,BTN,2019,0.14
+Bolivia,BOL,2019,0.24
+Bosnia and Herzegovina,BIH,2019,0.14
+Botswana,BWA,2019,0.18
+Brazil,BRA,2019,0.23
+Brunei,BRN,2019,0.42
+Bulgaria,BGR,2019,0.16
+Burkina Faso,BFA,2019,0.09
+Burundi,BDI,2019,0.07
+Cambodia,KHM,2019,0.08
+Cameroon,CMR,2019,0.11
+Canada,CAN,2019,0.43
+Cape Verde,CPV,2019,0.14
+Central African Republic,CAF,2019,0.07
+Chad,TCD,2019,0.10
+Chile,CHL,2019,0.36
+China,CHN,2019,0.11
+Colombia,COL,2019,0.22
+Comoros,COM,2019,0.09
+Congo,COG,2019,0.13
+Cook Islands,COK,2019,0.16
+Costa Rica,CRI,2019,0.24
+Cote d'Ivoire,CIV,2019,0.11
+Croatia,HRV,2019,0.17
+Cuba,CUB,2019,0.19
+Cyprus,CYP,2019,0.41
+Czechia,CZE,2019,0.19
+Democratic Republic of Congo,COD,2019,0.07
+Denmark,DNK,2019,0.47
+Djibouti,DJI,2019,0.11
+Dominica,DMA,2019,0.21
+Dominican Republic,DOM,2019,0.23
+East Timor,TLS,2019,0.09
+Ecuador,ECU,2019,0.28
+Egypt,EGY,2019,0.20
+El Salvador,SLV,2019,0.20
+Equatorial Guinea,GNQ,2019,0.21
+Eritrea,ERI,2019,0.09
+Estonia,EST,2019,0.18
+Eswatini,SWZ,2019,0.15
+Ethiopia,ETH,2019,0.09
+Europe (IHME GBD),,2019,0.32
+European Union (27),,2019,0.41
+Fiji,FJI,2019,0.11
+Finland,FIN,2019,0.48
+France,FRA,2019,0.47
+Gabon,GAB,2019,0.18
+Gambia,GMB,2019,0.09
+Georgia,GEO,2019,0.13
+Germany,DEU,2019,0.43
+Ghana,GHA,2019,0.12
+Greece,GRC,2019,0.43
+Greenland,GRL,2019,0.50
+Grenada,GRD,2019,0.22
+Guam,GUM,2019,0.18
+Guatemala,GTM,2019,0.19
+Guinea,GIN,2019,0.09
+Guinea-Bissau,GNB,2019,0.09
+Guyana,GUY,2019,0.19
+Haiti,HTI,2019,0.12
+High-income countries,,2019,0.42
+Honduras,HND,2019,0.17
+Hungary,HUN,2019,0.18
+Iceland,ISL,2019,0.45
+India,IND,2019,0.13
+Indonesia,IDN,2019,0.11
+Iran,IRN,2019,0.25
+Iraq,IRQ,2019,0.21
+Ireland,IRL,2019,0.46
+Israel,ISR,2019,0.39
+Italy,ITA,2019,0.54
+Jamaica,JAM,2019,0.19
+Japan,JPN,2019,0.39
+Jordan,JOR,2019,0.19
+Kazakhstan,KAZ,2019,0.16
+Kenya,KEN,2019,0.11
+Kiribati,KIR,2019,0.07
+Kuwait,KWT,2019,0.35
+Kyrgyzstan,KGZ,2019,0.09
+Laos,LAO,2019,0.10
+Latvia,LVA,2019,0.17
+Lebanon,LBN,2019,0.22
+Lesotho,LSO,2019,0.11
+Liberia,LBR,2019,0.08
+Libya,LBY,2019,0.20
+Lithuania,LTU,2019,0.17
+Low-income countries,,2019,0.09
+Lower-middle-income countries,,2019,0.13
+Luxembourg,LUX,2019,0.57
+Madagascar,MDG,2019,0.09
+Malawi,MWI,2019,0.08
+Malaysia,MYS,2019,0.15
+Maldives,MDV,2019,0.12
+Mali,MLI,2019,0.09
+Malta,MLT,2019,0.42
+Marshall Islands,MHL,2019,0.08
+Mauritania,MRT,2019,0.11
+Mauritius,MUS,2019,0.14
+Mexico,MEX,2019,0.24
+Micronesia (country),FSM,2019,0.08
+Moldova,MDA,2019,0.11
+Monaco,MCO,2019,0.87
+Mongolia,MNG,2019,0.13
+Montenegro,MNE,2019,0.15
+Morocco,MAR,2019,0.19
+Mozambique,MOZ,2019,0.08
+Myanmar,MMR,2019,0.10
+Namibia,NAM,2019,0.16
+Nauru,NRU,2019,0.11
+Nepal,NPL,2019,0.10
+Netherlands,NLD,2019,0.38
+New Zealand,NZL,2019,0.60
+Nicaragua,NIC,2019,0.17
+Niger,NER,2019,0.08
+Nigeria,NGA,2019,0.13
+Niue,NIU,2019,0.12
+North Korea,PRK,2019,0.07
+North Macedonia,MKD,2019,0.14
+Northern Mariana Islands,MNP,2019,0.15
+Norway,NOR,2019,0.47
+Oman,OMN,2019,0.27
+Pakistan,PAK,2019,0.12
+Palau,PLW,2019,0.12
+Palestine,PSE,2019,0.16
+Panama,PAN,2019,0.28
+Papua New Guinea,PNG,2019,0.08
+Paraguay,PRY,2019,0.22
+Peru,PER,2019,0.30
+Philippines,PHL,2019,0.10
+Poland,POL,2019,0.19
+Portugal,PRT,2019,0.42
+Puerto Rico,PRI,2019,0.31
+Qatar,QAT,2019,0.35
+Romania,ROU,2019,0.16
+Russia,RUS,2019,0.16
+Rwanda,RWA,2019,0.09
+Saint Kitts and Nevis,KNA,2019,0.29
+Saint Lucia,LCA,2019,0.22
+Saint Vincent and the Grenadines,VCT,2019,0.21
+Samoa,WSM,2019,0.09
+San Marino,SMR,2019,0.51
+Sao Tome and Principe,STP,2019,0.11
+Saudi Arabia,SAU,2019,0.28
+Senegal,SEN,2019,0.10
+Serbia,SRB,2019,0.14
+Seychelles,SYC,2019,0.15
+Sierra Leone,SLE,2019,0.09
+Singapore,SGP,2019,0.45
+Slovakia,SVK,2019,0.18
+Slovenia,SVN,2019,0.18
+Solomon Islands,SLB,2019,0.07
+Somalia,SOM,2019,0.05
+South Africa,ZAF,2019,0.16
+South Korea,KOR,2019,0.35
+South Sudan,SSD,2019,0.15
+Spain,ESP,2019,0.59
+Sri Lanka,LKA,2019,0.12
+Sudan,SDN,2019,0.15
+Suriname,SUR,2019,0.23
+Sweden,SWE,2019,0.51
+Switzerland,CHE,2019,0.49
+Syria,SYR,2019,0.16
+Taiwan,TWN,2019,0.17
+Tajikistan,TJK,2019,0.09
+Tanzania,TZA,2019,0.11
+Thailand,THA,2019,0.13
+Togo,TGO,2019,0.09
+Tokelau,TKL,2019,0.10
+Tonga,TON,2019,0.09
+Trinidad and Tobago,TTO,2019,0.28
+Tunisia,TUN,2019,0.20
+Turkey,TUR,2019,0.29
+Turkmenistan,TKM,2019,0.15
+Tuvalu,TUV,2019,0.08
+Uganda,UGA,2019,0.10
+Ukraine,UKR,2019,0.12
+United Arab Emirates,ARE,2019,0.30
+United Kingdom,GBR,2019,0.43
+United States,USA,2019,0.42
+United States Virgin Islands,VIR,2019,0.35
+Upper-middle-income countries,,2019,0.16
+Uruguay,URY,2019,0.35
+Uzbekistan,UZB,2019,0.12
+Vanuatu,VUT,2019,0.08
+Venezuela,VEN,2019,0.21
+Vietnam,VNM,2019,0.09
+World,OWID_WRL,2019,0.17
+Yemen,YEM,2019,0.12
+Zambia,ZMB,2019,0.11
+Zimbabwe,ZWE,2019,0.10
